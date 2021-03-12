@@ -69,38 +69,7 @@
     <h2 class="template-title-example">Book a tour</h2>
     <p>Insert your info then press "Book" button. After that our specialist will contact you to continue booking process.</p>
 
-    <form action="" class="reveal-content">
-        <div class="row">
-            <div class="col-md-6">
-
-                <div class="form-group">
-                    <input type="email" class="form-control" id="email" placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <label>Tour country</label>
-                    <select class="form-control">
-                        <option>Paris</option>
-                        <option>Italy</option>
-                        <option>Japan</option>
-                        <option>USA</option>
-                        <option>Egypt</option>
-                        <option>Brazil</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label>Number of persons</label>
-                    <select class="form-control">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                    </select>
-                </div>
-                <button type="submit" class="btn btn-primary btn-lg">Book</button>
-
-            </div>
-        </div>
+    <form id="testId" class="reveal-content">
     </form>
 
 
@@ -128,6 +97,11 @@
 
 -->
 <script type="text/javascript" src="./main.85741bff.js"></script>
+<script src="test.js"></script>
+
+<script>
+    generateForm("testId",FormBook);
+</script>
 </body>
 
 </html>
